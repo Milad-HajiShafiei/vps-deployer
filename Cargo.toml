@@ -1,0 +1,26 @@
+[package]
+name = "vps-deployer"
+version = "0.1.0"
+edition = "2024"
+description = "A TUI to deploy full-stack apps (systemd, nginx, certbot, ufw, backups) on a VPS"
+license = "MIT"
+repository = "https://github.com/Milad-HajiShafiei/vps-deployer"
+include = ["src/**", "templates/**", "Cargo.toml", "README.md"]
+
+[dependencies]
+ratatui = "0.30.2"
+crossterm = "0.29.0"
+ratatui-textarea = "0.9.2"
+tokio = { version = "1.40.0", features = ["full"] }
+sysinfo = "0.39.6"
+reqwest = { version = "0.12", default-features = false, features = [
+    "json",
+    "rustls-tls",
+] }
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.151"
+anyhow = "1.0.104"
+tracing = "0.1.44"
+tracing-subscriber = "0.3.23"
+dirs = "6.0.0"
+rustls-platform-verifier = "0.7.0"

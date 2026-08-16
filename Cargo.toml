@@ -1,6 +1,6 @@
 [package]
 name = "vps-deployer"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "A TUI to deploy full-stack apps (systemd, nginx, certbot, ufw, backups) on a VPS"
 license = "MIT"

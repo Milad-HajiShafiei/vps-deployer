@@ -161,7 +161,7 @@ fn draw_footer(f: &mut Frame, area: Rect, app: &App) {
             Style::default().fg(Color::Magenta),
         ),
         Span::styled("│", DIM),
-        Span::styled(" 1–7", Style::default().fg(Color::Cyan)),
+        Span::styled(" F(1–7)", Style::default().fg(Color::Cyan)),
         Span::styled(" tabs  ", DIM),
         Span::styled("↑↓/Tab", Style::default().fg(Color::Cyan)),
         Span::styled(" fields  ", DIM),

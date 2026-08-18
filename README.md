@@ -5,7 +5,8 @@
   <img src="https://img.shields.io/badge/license-MIT-blue" alt="License">
 </p>
 
-<h1 align="center">🚀 vps-deployer (Use it carefully; Developed by AI)</h1>
+<h1 align="center">🚀 vps-deployer</h1>
+<h2 align="center" style="color: tomato"> Disclaimer: Use it carefully; developed by AI</h2>
 
 <p align="center">
   <b>A mouse-friendly terminal UI that deploys full-stack apps to your Linux VPS —<br>
